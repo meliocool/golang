@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-// If -> Decision, if it is true then do something
-// else if -> Alternative Decision
-// else -> If all If statements are false, then do this
+// * If -> Decision, if it is true then do something
+// * else if -> Alternative Decision
+// * else -> If all If statements are false, then do this
 
 func main() {
 	name := "Lee Jae-In"
-	// If Expression
+	// * If Expression
 	if name == "Lee Jae-In" {
 		fmt.Println("Hello Lee Jae-In")
 	} else if name == "Go Youn-Jung" {
@@ -17,14 +17,14 @@ func main() {
 		fmt.Println("Hello Random Person!")
 	}
 
-	// Short Statement if
+	// * Short Statement if
 	if length := len(name); length >= 10 {
 		fmt.Println("Name is too long")
 	} else {
 		fmt.Println("Name is good")
 	}
 
-	// Switch Expression
+	// * Switch Expression
 	switch name {
 	case "Lee Jae-In":
 		fmt.Println("Hello Lee Jae-In")
@@ -34,7 +34,7 @@ func main() {
 		fmt.Println("Hello Random Person!")
 	}
 
-	// Short Statement If
+	// * Short Statement If
 	switch length := len(name); length > 10 {
 	case true:
 		fmt.Println("Name is too long")
@@ -44,7 +44,7 @@ func main() {
 		fmt.Println("This is the default part")
 	}
 
-	// Adding Condition in each case
+	// * Adding Condition in each case
 	length := len(name)
 	switch {
 	case length > 15:

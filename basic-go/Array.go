@@ -1,7 +1,7 @@
 package main
 
-// Array is fixed size when declared
-// Index starts from 0
+// * Array is fixed size when declared
+// * Index starts from 0
 
 import "fmt"
 
@@ -19,7 +19,7 @@ func main() {
 	var values = [3]int{
 		90,
 		10,
-		// This is 0
+		// * This is 0
 	}
 	fmt.Println("Values: ", values)
 

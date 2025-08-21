@@ -2,15 +2,15 @@ package main
 
 import "fmt"
 
-// Map -> Data stored in Pairwise (key - value) where key is unique
-// Map size is NOT FIXED, can be added as much as possible
+// * Map -> Data stored in Pairwise (key - value) where key is unique
+// * Map size is NOT FIXED, can be added as much as possible
 
 func main() {
 	person := map[string]string{
 		"name":        "Lee Jae-In",
 		"nationality": "South Korea",
 	}
-	var human map[string]string = map[string]string{} // declares an empty map
+	var human map[string]string = map[string]string{} // * declares an empty map
 	human["name"] = "Go Youn-Jung"
 	human["nationality"] = "South Korea"
 
@@ -19,7 +19,7 @@ func main() {
 	fmt.Println(person)
 	fmt.Println(human)
 
-	// Functions in Map
+	// * Functions in Map
 	fmt.Println("Length of Map Person: ", len(person))
 	song := make(map[string]string)
 	song["title"] = "Selfless"

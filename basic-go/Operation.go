@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	// +, -, *, /, %
+	// * +, -, *, /, %
 	var a = 10
 	var b = 10
 	var aplusb int = a + b
@@ -11,11 +11,11 @@ func main() {
 	var aminb int = a - b
 	fmt.Println(aminb)
 
-	// Augmented Assignment
+	// * Augmented Assignment
 	a += 10
 	fmt.Println(a)
 
-	// Unary Operator
+	// * Unary Operator
 	b++
 	fmt.Println(b)
 
@@ -24,25 +24,25 @@ func main() {
 	var boolC = !boolB
 	fmt.Println(boolB)
 
-	// Comparison Operator
-	// > < >= <= == !=
+	// * Comparison Operator
+	// * > < >= <= == !=
 	var compare bool = boolA == boolC
 	fmt.Println(compare)
 
-	// Boolean Operator
-	// &&
-	// true true -> true
-	// true false -> false
-	// false true -> false
-	// false false -> false
-	// ||
-	// true true -> true
-	// true false -> true
-	// false true -> true
-	// false false -> false
-	// !
-	// true -> false
-	// false -> true
+	// * Boolean Operator
+	// * &&
+	// * true true -> true
+	// * true false -> false
+	// * false true -> false
+	// * false false -> false
+	// * ||
+	// * true true -> true
+	// * true false -> true
+	// * false true -> true
+	// * false false -> false
+	// * !
+	// * true -> false
+	// * false -> true
 
 	var finalGrade = 90
 	var absent = 3
