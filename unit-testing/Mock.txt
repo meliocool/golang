@@ -1,0 +1,4 @@
+Mock is an object that is programmed with a certain expectation so that when called, it produces that expected result
+Mock object is made when encountering an object that is difficult to test
+Example: Testing a block of code that makes an API call to a third party service
+Use Testify Mock
