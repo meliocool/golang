@@ -1,0 +1,6 @@
+[submodule "go-modules/app-say-hi"]
+	path = go-modules/app-say-hi
+	url = https://github.com/meliocool/app-say-hi.git
+[submodule "go-modules/go-say-hi"]
+	path = go-modules/go-say-hi
+	url = https://github.com/meliocool/go-say-hi.git
