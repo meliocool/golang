@@ -1,3 +1,0 @@
-Unit Test -> Small testing for certain methods, functions, and generally cheaper and more massive to perform
-Service Test -> Integrated testing for certain group of architecture, such as backend A with Database A and Third Party A, and so on
-UI Test -> End-To-End testing for the entire flow of the application, with a well made UI and User Journey
