@@ -4,3 +4,7 @@
 [submodule "go-modules/go-say-hi"]
 	path = go-modules/go-say-hi
 	url = https://github.com/meliocool/go-say-hi.git
+[submodule "go-restapi"]
+	path = go-restapi
+	url = https://github.com/meliocool/go-restapi.git
+	branch = main
