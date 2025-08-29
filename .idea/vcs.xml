@@ -4,5 +4,6 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/go-modules/app-say-hi" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/go-modules/go-say-hi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/go-restapi" vcs="Git" />
   </component>
 </project>
